@@ -1,0 +1,10 @@
+{ "_source" :["cuisine","borough"],
+    "query":{
+    "bool":{
+        "should":[
+            {"match": {"cuisine": "italian"}},
+            {"match":{"borough":"Manhattan"}}
+        ]
+    }
+}
+}

@@ -1,0 +1,7 @@
+{
+    "aggs" : {
+        "nb-restaurant" : {
+            "terms" : {"field": "borough.raw"}
+        } },
+	"size": 0
+}

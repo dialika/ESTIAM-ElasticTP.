@@ -1,0 +1,10 @@
+{ "_source" :["cuisine","address.*"],
+    "query" : {
+        "bool":{
+            "must": {
+                "match":{"cuisine" : "japanese"}
+            
+        }
+        }
+        }
+    }
